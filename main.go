@@ -26,7 +26,7 @@ func countRectangles(points []point) int {
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	n := 12
+	n := 20
 	points := make([]point, n)
 	for i := 0; i < n; i++ {
 		points[i] = point{rand.Intn(10), rand.Intn(10)}
